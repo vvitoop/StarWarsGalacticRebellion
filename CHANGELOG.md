@@ -1,0 +1,1 @@
+1-Creacion Proyecto----> Inicializaion del proyecto mediante libgdx 
