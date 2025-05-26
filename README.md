@@ -1,33 +1,30 @@
-# StarWarsGalacticRebellion
+# Star Wars: Galactic Rebellion
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+## Integrantes del Grupo
+- Vito Peluso  
+- Giuliano Santangelo Russo  
+- Joaquín Alejandro Sulca
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## Descripción Corta del Videojuego
+*Star Wars: Galactic Rebellion* es un videojuego en red en 2D para PC, inspirado en clásicos como *Galaga*, *Space Invaders* y *1942*, ambientado en el universo de *Star Wars*. Permite partidas multijugador online de 2 jugadores en pantalla dividida, donde cada jugador combate oleadas de enemigos. Gana quien sobreviva más tiempo o acumule más puntos.
 
-## Platforms
+## Tecnologías Principales
+- **Lenguaje de programación:** Java 12  
+- **Framework gráfico:** LibGDX 1.13.1  
+- **Plataformas de desarrollo objetivo:** Escritorio (Windows, Linux, Mac)
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+## Enlace a la Wiki del Proyecto
+[Propuesta detallada del proyecto](https://github.com/tu-repositorio/wiki/Propuesta_de_Tema)
 
-## Gradle
+## Instrucciones Básicas de Compilación y Ejecución
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+### Requisitos previos
+- Java Development Kit (JDK) 12 o superior
+- Gradle instalado (o usar el wrapper incluido)
+- Git instalado
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+### Pasos
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/vvitoop/StarWarsGalacticRebellion.git
