@@ -34,7 +34,7 @@
 
 4. Ejecutar el juego
 
-   - Desde el IDE, correr la clase Lwjgl3Launcher.java ubicada en el modulo lwjgl3.
+   - Desde el IDE, correr la clase menu.
    - Desde la consola
      ```
      Windows (CMD o PowerShell)
